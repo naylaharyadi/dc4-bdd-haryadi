@@ -1,1 +1,2 @@
 SELECT country FROM country
+SELECT name FROM entity
