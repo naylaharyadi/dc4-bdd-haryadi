@@ -1,2 +1,3 @@
 SELECT country FROM country
 SELECT name FROM entity
+SELECT name FROM officer WHERE country_id = 2
