@@ -1,3 +1,4 @@
-SELECT country FROM country
-SELECT name FROM entity
-SELECT name FROM officer WHERE country_id = 2
+SELECT country FROM country;
+SELECT name FROM entity;
+SELECT name FROM officer WHERE country_id = 2;
+SELECT COUNT (*) FROM entity;
