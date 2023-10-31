@@ -4,6 +4,4 @@ SELECT name FROM officer WHERE country_id = 2;
 SELECT COUNT (*) FROM entity;
 SELECT id FROM entity WHERE incorporation_date > '2000-01-01';
 SELECT * from intermediary i, address a WHERE i.id_address = a.id_address;
-SELECT e.name, c.country 
-FROM entity e, country c, address a 
-WHERE e.id_address = a.id_address AND c.code = a.countries 
+SELECT e.name, c.country FROM entity e, country c, address a WHERE e.id_address = a.id_address AND c.code = a.countries 
